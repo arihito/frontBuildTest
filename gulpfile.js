@@ -13,9 +13,9 @@ gulp.task('clean', () => {
 });
 
 gulp.task('build', ['clean'], () => {
-  retun gulp.src(paths.allSrcJs)
+  return gulp.src(paths.allSrcJs)
   .pipe(babel())
-  .pipe(gulp.dest(pats.libDir));
+  .pipe(gulp.dest(paths.libDir));
 });
 
 gulp.task('main', ['build'], (callback) => {

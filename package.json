@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "20161126_testBuild",
+  "main": "index.js",
+  "author": "arihito matsuda",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
